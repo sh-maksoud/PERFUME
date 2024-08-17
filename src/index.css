@@ -1,0 +1,21 @@
+/* css for the whole sections of the page */
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* in react another step is needed */
+#root{
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

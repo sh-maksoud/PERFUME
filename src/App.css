@@ -1,0 +1,31 @@
+/* css for specific section in app.jsx called main here the div */
+/* main{
+  width: 60%;
+  height:420px;
+  display: flex;
+  border-radius: 10px;
+ 
+} */
+main {
+  width: 60%;
+  height: 420px;
+  display: flex;
+  border-radius: 10px;
+
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 80%;
+    flex-direction: column;
+    height: auto;
+   
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    width: 100%;
+  
+  }
+}
